@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+/* .bg_example {
+    background-image: url('../images/shapes/Group\ 8446.png'), url('../images/food/Project\ Cover.jpg');
+    background-size: 300px 250px ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    height: 600px;
+} */
+
+/* end of common css  */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section {
+    margin: 120px 0;
+}
+
+.btn__primary {
+    background: #f34323;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+/* banner section  */
+
+.banner__section {
+    background-image: url('../images/shapes/Group8450.png');
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__text {
+    padding: 120px 0;
+    width: 45%;
+}
+
+.banner__text h3 {
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.banner__text span {
+    color: #f34323;
+}
+
+.banner__text .banner__desc {
+    margin: 25px 0px 30px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.banner__section {
+    position: relative;
+}
+
+.banner__section .banner__img {
+    /* width : 400px ;  */
+    /* height: 500px ; */
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+
+/* end of banner section  */
+
+/* about me section */
+
+.about__me {
+    background-image: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eddedc;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__me__img {
+    width: 45%;
+}
+
+.about__me__desc {
+    width: 50%;
+}
+
+.common__heading {
+    font-size: 30px;
+    color: #555;
+    margin: 30px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about__me__details {
+    font-size: 18px;
+    line-height: 25px;
+    color: #777;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.recipie__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.recipie__card__main {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 20px 0;
+}
+
+.recipie__card {
+    width: 48%;
+    border: 1px solid #aaa;
+    padding: 15px 15px 40px 15px;
+    border-radius: 20px;
+}
+
+.recipie__card img {
+    width: 100%;
+    height: 300px;
+}
+
+.recipie__card__heading {
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin: 15px 0 25px;
+}
+
+.recipie__card__desc {
+    font-size: 18px;
+    color: #777;
+}
+
+/* end of about me section */
+
+/* info section  */
+
+.info__main {
+    border: 1px solid #ccc;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px ;
+}
+
+.info__box {
+    width: 33%;
+    text-align: center;
+}
+
+.info__heading {
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info__desc {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #777;
+}
+
+/* end of info section  */
+
+
+/* footyer section  */
+
+.footer__section {
+    background-color: #222;
+    padding: 40px;
+}
+
+.footer__section__main {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.footer__heading {
+    font-weight: 600;
+    color: #eee;
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-bottom: 20px ;
+}
+
+.footer__heading span{
+    color: #ee9484;
+}
+
+.footer__desc{
+    color : #ccc ; 
+    text-transform: capitalize;
+}
+
+
+/* end of footer section  */
